@@ -1,0 +1,70 @@
+html {
+    font-family: "MuseoSansCyrl";
+    font-weight: 100;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 302px;
+    height: 462px;
+    border: 1px solid #e8e8e8;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 37px;
+}
+
+.head {
+    font-size: 16px;
+    text-align: center;
+    color: #212121;
+    margin-top: 0px;
+
+}
+
+.price{
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: center;
+    color: #5ba2a9;
+}
+
+.big_number {
+    font-size: 48px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.position{
+    font-size: 14px;
+    text-align: center;
+    color: #454545;
+    margin: 0px;
+}
+
+.order {
+    box-sizing: border-box;
+    width: 200px;
+    height: 54px;
+    border: 2px solid #e8e8e8;
+    background-color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #5a5a5a;
+    font-weight: 700;
+    margin-top: 46px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face { 
+    font-family: "MuseoSansCyrl"; 
+    src: url("MuseoSansCyrl-500.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
